@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harman Singh's developer portfolio, featuring the Vault Expense Tracker built with HTML, CSS and JavaScript.">
+  <title>Harman Singh | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home"><span>H</span>S.</a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link nav-contact">Let's talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          <span>WEB DEVELOPMENT PORTFOLIO</span>
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Harman<br><span class="gradient-text">Singh.</span></h1>
+
+        <h2 class="hero-role">Aspiring Web Developer</h2>
+
+        <p class="hero-description">
+          I build clean, modern and interactive web experiences
+          using HTML, CSS and JavaScript. Turning ideas into
+          functional digital products, one project at a time.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore my work <span>↗</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            Get in touch
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>03</strong>
+            <span>Core technologies</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div>
+            <strong>01</strong>
+            <span>Featured project</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div>
+            <strong>∞</strong>
+            <span>Ideas to build</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <div class="profile-card-top">
+            <span class="window-dot red"></span>
+            <span class="window-dot yellow"></span>
+            <span class="window-dot green"></span>
+            <span class="code-label">developer.js</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent"><span class="code-blue">name</span>: <span class="code-green">"Harman Singh"</span>,</p>
+            <p class="indent"><span class="code-blue">role</span>: <span class="code-green">"Web Developer"</span>,</p>
+            <p class="indent"><span class="code-blue">skills</span>: [</p>
+            <p class="indent double"><span class="code-green">"HTML"</span>,</p>
+            <p class="indent double"><span class="code-green">"CSS"</span>,</p>
+            <p class="indent double"><span class="code-green">"JavaScript"</span></p>
+            <p class="indent">],</p>
+            <p class="indent"><span class="code-blue">mindset</span>: <span class="code-green">"Keep learning"</span></p>
+            <p>};</p>
+            <p class="code-comment">// Building something great.</p>
+          </div>
+
+          <div class="profile-card-footer">
+            <span class="footer-pulse"></span>
+            <span>Ready to create</span>
+            <span class="footer-bracket">{ }</span>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-html"><span>5</span> HTML</div>
+        <div class="floating-tag tag-css"><span>✳</span> CSS</div>
+        <div class="floating-tag tag-js"><span>JS</span> JavaScript</div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span class="scroll-line"></span> SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>A little about <span class="gradient-text">my journey.</span></h2>
+        <p>Curiosity turns into code. Code turns into experiences.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card glass-card">
+          <span class="card-number">01</span>
+          <div class="about-icon">⌘</div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm Harman Singh, an aspiring web developer interested
+            in creating attractive, useful and easy-to-use websites.
+            I enjoy exploring ideas and bringing them to life with code.
+          </p>
+        </article>
+
+        <article class="about-card glass-card">
+          <span class="card-number">02</span>
+          <div class="about-icon">✳</div>
+          <h3>What I Do</h3>
+          <p>
+            I use HTML to structure content, CSS to create polished
+            interfaces, and JavaScript to add interactivity and
+            useful functionality.
+          </p>
+        </article>
+
+        <article class="about-card glass-card">
+          <span class="card-number">03</span>
+          <div class="about-icon">↗</div>
+          <h3>My Goal</h3>
+          <p>
+            To keep improving my development skills, build meaningful
+            projects, and create web experiences that balance
+            design, usability and performance.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / MY TOOLKIT</p>
+        <h2>Tools I use to <span class="gradient-text">build.</span></h2>
+        <p>My core technologies for creating websites and web applications.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass-card">
+          <div class="skill-icon html-icon">5</div>
+          <div class="skill-info">
+            <h3>HTML5</h3>
+            <p>Semantic structure & accessibility</p>
+          </div>
+          <span class="skill-index">01</span>
+        </article>
+
+        <article class="skill-card glass-card">
+          <div class="skill-icon css-icon">✳</div>
+          <div class="skill-info">
+            <h3>CSS3</h3>
+            <p>Responsive layouts & modern styling</p>
+          </div>
+          <span class="skill-index">02</span>
+        </article>
+
+        <article class="skill-card glass-card">
+          <div class="skill-icon js-icon">JS</div>
+          <div class="skill-info">
+            <h3>JavaScript</h3>
+            <p>DOM manipulation & interactive logic</p>
+          </div>
+          <span class="skill-index">03</span>
+        </article>
+
+        <article class="skill-card glass-card">
+          <div class="skill-icon storage-icon">▤</div>
+          <div class="skill-info">
+            <h3>Local Storage</h3>
+            <p>Persisting application data locally</p>
+          </div>
+          <span class="skill-index">04</span>
+        </article>
+      </div>
+
+      <div class="learning-banner">
+        <span class="learning-symbol">✦</span>
+        <div>
+          <strong>Always learning. Always building.</strong>
+          <p>Improving through hands-on projects and experimentation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Ideas made <span class="gradient-text">real.</span></h2>
+        <p>A closer look at my featured web application.</p>
+      </div>
+
+      <article class="project-card glass-card">
+        <div class="project-preview">
+          <div class="mock-browser">
+            <div class="mock-browser-bar">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+              <span class="mock-address">vault.app / dashboard</span>
+            </div>
+
+            <div class="mock-dashboard">
+              <aside class="mock-sidebar">
+                <div class="mock-brand"><span>V</span> VAULT</div>
+                <div class="mock-nav selected">▦ Overview</div>
+                <div class="mock-nav">↔ Transactions</div>
+                <div class="mock-nav">◷ Budgets</div>
+                <div class="mock-nav">⌁ Analytics</div>
+                <div class="mock-nav">◎ Goals</div>
+              </aside>
+
+              <div class="mock-main">
+                <div class="mock-welcome">
+                  <div>
+                    <small>FINANCIAL OVERVIEW</small>
+                    <h3>Your money, in focus.</h3>
+                  </div>
+                  <span class="mock-avatar">HS</span>
+                </div>
+
+                <div class="mock-stat-grid">
+                  <div class="mock-stat">
+                    <span>Total balance</span>
+                    <strong>₹84,250</strong>
+                    <small class="mock-positive">↑ 12.4%</small>
+                  </div>
+                  <div class="mock-stat">
+                    <span>Income</span>
+                    <strong>₹65,000</strong>
+                    <small class="mock-positive">Monthly</small>
+                  </div>
+                  <div class="mock-stat">
+                    <span>Expenses</span>
+                    <strong>₹28,450</strong>
+                    <small class="mock-negative">Monthly</small>
+                  </div>
+                </div>
+
+                <div class="mock-chart-card">
+                  <div class="mock-chart-heading">
+                    <strong>Cash flow</strong>
+                    <span>Last 6 months</span>
+                  </div>
+                  <div class="mock-chart">
+                    <div class="chart-gridline"></div>
+                    <div class="chart-gridline"></div>
+                    <div class="chart-gridline"></div>
+                    <div class="chart-bars">
+                      <div class="bar-group"><i style="height:40%"></i><b style="height:24%"></b></div>
+                      <div class="bar-group"><i style="height:58%"></i><b style="height:32%"></b></div>
+                      <div class="bar-group"><i style="height:46%"></i><b style="height:29%"></b></div>
+                      <div class="bar-group"><i style="height:75%"></i><b style="height:43%"></b></div>
+                      <div class="bar-group"><i style="height:65%"></i><b style="height:39%"></b></div>
+                      <div class="bar-group"><i style="height:90%"></i><b style="height:48%"></b></div>
+                    </div>
+                  </div>
+                  <div class="mock-months">
+                    <span>May</span><span>Jun</span><span>Jul</span>
+                    <span>Aug</span><span>Sep</span><span>Oct</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="preview-caption">PROJECT PREVIEW / VAULT</span>
+        </div>
+
+        <div class="project-details">
+          <div class="project-label"><span></span> FEATURED PROJECT</div>
+          <h3>Vault Expense Tracker</h3>
+          <p class="project-description">
+            A personal finance dashboard designed to help users
+            track income and expenses, manage category budgets,
+            understand spending patterns and monitor savings goals.
+          </p>
+
+          <div class="feature-list">
+            <div><span>↗</span> Income & expense management</div>
+            <div><span>↗</span> Monthly budget tracking</div>
+            <div><span>↗</span> Spending analytics & charts</div>
+            <div><span>↗</span> Savings goals & progress</div>
+            <div><span>↗</span> Local storage & data export</div>
+          </div>
+
+          <div class="tech-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Local Storage</span>
+          </div>
+
+          <button class="btn btn-primary project-button" id="project-details-btn">
+            Explore project <span>↗</span>
+          </button>
+          <p class="project-note" id="project-note" hidden>
+            Add your deployed project URL in script.js to connect this button.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section approach-section" id="approach">
+      <div class="section-heading">
+        <p class="eyebrow">04 / MY APPROACH</p>
+        <h2>How I bring ideas <span class="gradient-text">to life.</span></h2>
+      </div>
+
+      <div class="approach-grid">
+        <article class="approach-step">
+          <span class="step-number">01</span>
+          <h3>Understand</h3>
+          <p>Start with the problem, the users and the purpose.</p>
+        </article>
+        <article class="approach-step">
+          <span class="step-number">02</span>
+          <h3>Design</h3>
+          <p>Plan a clear layout with usability and visual hierarchy in mind.</p>
+        </article>
+        <article class="approach-step">
+          <span class="step-number">03</span>
+          <h3>Develop</h3>
+          <p>Build responsive interfaces and functional interactions.</p>
+        </article>
+        <article class="approach-step">
+          <span class="step-number">04</span>
+          <h3>Improve</h3>
+          <p>Test, refine and learn from every iteration.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card glass-card">
+        <div class="contact-decoration">✳</div>
+        <p class="eyebrow">05 / GET IN TOUCH</p>
+        <h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2>
+        <p>
+          Interested in my work or have a project idea?
+          I'd be glad to connect and talk about it.
+        </p>
+
+        <a href="#" class="btn btn-primary" id="email-link">
+          Say hello <span>↗</span>
+        </a>
+
+        <p class="contact-note" id="contact-note">
+          Add your email address in script.js to activate this link.
+        </p>
+
+        <div class="social-links">
+          <a href="#" id="github-link" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="#" id="linkedin-link" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo footer-logo" href="#home"><span>H</span>S.</a>
+    <p>Designed & built by Harman Singh.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+    <p class="copyright">© <span id="year"></span> Harman Singh</p>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>
